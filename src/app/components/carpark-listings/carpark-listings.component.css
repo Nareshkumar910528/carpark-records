@@ -1,0 +1,25 @@
+.outer-margin-50 {
+    margin: 50px;
+}
+
+th {
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black
+}
+
+.table-padding {
+    padding: 25px;
+}
+
+.mat-column-lots_available {
+    padding-left: 40px;
+}
+
+.filter {
+    display: block;
+    width: 60%;
+}
