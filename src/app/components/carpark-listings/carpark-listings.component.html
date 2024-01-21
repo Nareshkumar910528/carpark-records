@@ -1,6 +1,10 @@
+<header class="header">
+    <div class="logo">Singapore Car Park Info</div>
+</header> 
+
 <div class="outer-margin-50">
 
-    <table mat-table [dataSource]="dataSource" class="table-padding mat-elevation-z20" matSort #carparkDataToBeSort="matSort">
+    <table style="background-color: #E7E8D1;" mat-table [dataSource]="dataSource" class="table-padding mat-elevation-z20" matSort #carparkDataToBeSort="matSort">
 
         <tr mat-header-row *matHeaderRowDef="columnsToBeDisplayed"></tr>
         <tr mat-row *matRowDef="let row; columns: columnsToBeDisplayed;"></tr>
@@ -37,6 +41,6 @@
 
     </table>
 
-    <mat-paginator #carparkPaginator [pageSizeOptions]="[5, 10, 15, 20, 25, 30]" showFirstLastButtons></mat-paginator>
+    <mat-paginator style="background-color: #A7BEAE;" #carparkPaginator [pageSizeOptions]="[5, 10, 15, 20, 25, 30]" showFirstLastButtons></mat-paginator>
 
 </div>
